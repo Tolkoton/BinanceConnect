@@ -8,6 +8,7 @@ You can get last n candles or all candles starting from, for example, "1 Feb, 20
 Details:
 
 __init__(self, currency_pair_dict = {'LTC': 1, 'USDT': 0}, time_interval = Client.KLINE_INTERVAL_2HOUR):
+
 '''Takes in a currency_pair_dict with currency names and balance for each currency and time interval for candles'''
 
 connect(self): 
