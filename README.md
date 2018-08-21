@@ -1,5 +1,6 @@
 # BinanceConnect
 This is simple tool that allows you to get data from Binance.
+Includes test.
 
 You can get trade data as list or as Pandas dataframe.
 You can get last n candles or all candles starting from, for example, "1 Feb, 2018"
@@ -10,7 +11,7 @@ __init__(self, currency_pair_dict = {'LTC': 1, 'USDT': 0}, time_interval = Clien
 '''Takes in a currency_pair_dict with currency names and balance for each currency and time interval for candles'''
 
 connect(self): 
-'''conects to Binance and returns Binance client. You will need to enter you API data here>'''
+'''conects to Binance and returns Binance client. You will need to enter you API data here'''
 
 get_candles_list
 get_candles_list_all_time
